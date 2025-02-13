@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+    <link rel="stylesheet" href="style2.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=
+Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.
+0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="testlang to.html"><img src="logo copy.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidenMenu()"></i>
+
+                <ul>
+                <li><a href="testlang to.html">Home</a></li>
+                <li><a href="strand2.html">Strand</a></li>
+                <li><a href="">Guide</a></li>
+                <li><a href="WEB DEVELOPER/web.html">About</a></li>
+                <li><a href="">Web DEveloper</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Log Out</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Rosales National High School</h1>
+            <p>Welcome To Rosales National High School</p>
+        </div>
+
+    </section>
+    <!------strand----->
+
+    <section class="Strand">
+        <h1> Strands</h1>
+        <p>we have</p>
+        <div class="row">
+            <div class="strand-col">
+                    <h3>TVL</h3>
+                <p>Is one of the tracks in the K-12 curriculum in the Philippines, Designed for Students who want
+                    to gain practical skills for employment, enterpreneurship, or further vocational education after high school.
+                    it focuses on hands-on learning and industry-based competencies.
+                </p>
+            
+            </div>
+                <div class="strand-col">
+                    <h3>Stem</h3>
+                    <p>is one of the academic tracks in the K-12 curriculum designed for students who are
+                        inclined toward science, math, and technology-related fields. it prepares students for college courses such as engineering,
+                        medicine, computer science, and other technical disciplines. 
+                    </p>
+                    
+                </div>
+                    <div class="strand-col">
+                        <h3>Abm</h3>
+                        <p>is one of the academic tracks in the K-12 curriculum designed for students who are interested in society, culture,
+                            politics, and communication. It is ideal for those who want to pursue careers in law, journalism, education, psychology,
+                            public service, and other related fields.</p>
+               
+                    </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!----strand 2---->
+
+    <section class="Strand2">
+        <div class="row2">
+            <div class="strand2-col">
+                <h3>Gas</h3>
+                <p>is a flexible academic track in the K-12 curriculum that allows students to explore a wide range of subjects without focusing on a specific field like STEM,
+                    HUMSS, or ABM. It is designed for students who are undecided about their future career path or want a broad knowledge base that can be applied to 
+                     various disciplines. The GAS strand provides a combination of subjects from other academic tracks, making it versatile and ideal for those who want flexibility in choosing 
+                    their college course or career.
+                </p>
+    
+            </div>
+            <div class="strand2-col">
+                <h3>Humss</h3>
+                <p>One of the academic tracks in the K-12 curriculum designed for students who are interested in society, culture, 
+                    politics, and communication. It is ideal for those who want to pursue careers in law, journalism, education, psychology,
+                     public service, and other related fields.</p>
+        </p>
+            </div>
+        </div>
+
+    </section>
+
+<!------- footer ----->
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p>via</p>
+    <ul>
+        <li>Email:Rnhs@gmail.com</li>
+        <li>Phone:0912345567</li>
+        <li>Address:nbsub</li>
+    </ul>
+
+</section>
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks =  document.getElementById("Navlinks"); 
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hidenMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+   
+
+</body>
+</html>

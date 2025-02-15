@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+    <link rel="stylesheet" href="stylehome.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=
+Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.
+0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="testlang to.html"><img src="logo copy.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidenMenu()"></i>
+
+                <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="strand2.html">Strand</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="WEB DEVELOPER/web.html">Web Developer</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="registration form.html">Log Out</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+        <h1>Rosales National High School</h1>
+        <p>Welcome To Rosales National High School</p>
+        <a href="about.html" class="hero-btn">visit us to know more</a>
+    </div>
+
+
+    </section>
+
+    <!-----About----->
+
+    <section class="About">
+        <h1>About</h1>
+        <p>Establish in 1972, rosales national high school has been committed to providing quality
+             education that nurtures young minds and prepares students for a briter future.
+             our School foster a culture of academic excellence, characters developement, and holistic learning.
+        </p>
+    </section>
+
+<!----photo---->
+<section class="announcement">
+    <div class="layer">
+        <div class="announcement-col">
+            <img src="shs.png">
+        </div>
+    </div>
+</section>
+<!------- footer ----->
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p>via</p>
+    <ul>
+        <li>Email:Rnhs@gmail.com</li>
+        <li>Phone:0912345567</li>
+        <li>Address:nbsub</li>
+    </ul>
+
+</section>
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks =  document.getElementById("Navlinks"); 
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hidenMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+   
+
+</body>
+</html>
